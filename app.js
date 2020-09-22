@@ -211,7 +211,7 @@
 //      document.write("<h1> The Lifetime Supply Calculator </h1>")
 //      document.write("Favourit Snacks: " + fav_snack +"<br>"  + "Current age: " + age +"<br>"  + "Estimated maximum age; " + estimated_age + "<br>" + "Amount of snacks per day: " + per_day+"<br>"  + "You will need "+ total +" to last you until the ripe old age of " + estimated_age)
 
-// ======chapter6=====
+// ======chapter6 to 9=====
 // var a =10;
 // document.write("<h3>Results</h3>")
 // document.write("The value of a is " +a)
@@ -238,4 +238,340 @@
             //    1      - 0  +    2    + 0
 //  document.write("result is " + result)
 // (greeting msg)
-var 
+// var user = prompt("Hi , Welcome new user"," what is your name ?")
+// alert ("thanks " + user)
+ 
+
+// // marksheet
+// var sub_1 =prompt("Enter 1st subject no")
+// var sub_2 = prompt(" Enter 2nd subject no")
+// var sub_3 =prompt(" Enter 3rd subject no")
+// var sub_1_marks =prompt("Enter 1st subject marks")
+// var sub_2_marks = prompt(" Enter 2nd subject marks")
+// // var sub_3_marks =prompt(" Enter 3rd subject marks")
+// document.write("<table>")
+// document.write("<th> Marksheet </th>")
+// document.write("<tr>")
+// document.write("<td>Subject</td> <td >   Total Marks</td> <td>   Obtained Marks</td> <td > percentage </td>")
+// document.write("</tr>")
+// document.write ("<tr><td>English</td><td>100</td><td>87</td><td>87%</td></tr>")
+// document.write ("<tr><td>Math</td><td>100</td><td>100</td><td>100%</td></tr>")
+// document.write ("<tr><td>urdu</td><td>100</td><td>77</td><td>77%</td></tr>")
+// document.write ("<tr><td>English lit</td><td>100</td><td>87</td><td>87%</td></tr>")
+
+// document.write("<td>4</td> <td >300 </td> <td>  251</td> <td > 85% </td>")
+// document.write("________________________________________________________________________")
+// document.write("</table>")
+// document.write("_________________________________________________________________________")
+
+// chap 9 to 11
+// 1
+// var city = prompt("write your city name");
+// if ( city == "Karachi");
+// {
+//     alert("Welcome to city of light");
+// else{
+//     alert ("welcome to " + city)
+// }
+// }
+
+// 2
+// var gender = prompt("what is your gender");
+// gender
+// var gender =  prompt("What's your gender ");
+
+// if(  gender === "male"){
+
+
+//     alert("Good Morning Sir")
+    
+//     } 
+// else if( gender === "female") {
+//         alert("Good Morning ma'ma ")
+//     }
+// 3
+// var trafic_light =prompt ("show me colour of traffic signal");
+// if( trafic_light ==="red"  ){
+//   alert("Must stop");
+// }
+// else if ( trafic_light ==="green"  ){
+//   alert ("Move now");
+// }
+// else   ( trafic_light ==="yellow"  ) (
+//     alert ("Ready to move")
+
+// )
+// 4
+// var fuel = +prompt("what's rmaining fuel in your car");
+// if( fuel <= 0.25 ){
+//     alert( "Please refill the fuel in CAR");
+// // }
+// //  else   (fuel > 0.25 ) (
+// // alert ("Enjoy your ride")
+// //  )
+// // 5
+// // var a = 4;
+// // if (++a === 5){
+// //     alert ("given condition for variable is true")
+// // }
+// // var b = 82;
+// // if (++b === 83){
+// //     alert ("given condition for variable is true")
+
+// // var c = 12;}
+// // if (c++ === 13){
+// // alert("condition 1 is true");
+// // }
+// // if (c === 13){
+// // alert("condition 2 is true");
+// // }
+// // if (++c < 14){
+// // alert("condition 3 is true");
+// // }
+// // if(c === 14){
+// // alert("condition 4 is true");
+// // }
+// //  var materialCost = 20000;
+// // var laborCost = 2000;
+// // var totalCost = materialCost + laborCost;
+// // if (totalCost === laborCost + materialCost){
+// // alert("The cost equals");
+// // }
+// //  if (true){
+// // alert("True");
+// // }
+// // if (false){
+// // alert("False");
+// // }
+
+
+
+
+// // // marksheet
+
+// // var a =+prompt("Enter 1st subject marks");
+// // var b = +prompt(" Enter 2nd subject marks");
+// // var c =+prompt(" Enter 3rd subject marks");
+// // var total_marks = 300;
+// // var obtain_marks = a + b + c;
+// // var percentage = (obtain_marks/total_marks)*100;
+// // var grade;
+// // var remarks;
+// // if( percentage >= 80 ){
+// //    grade = "A-one"
+// //    remarks = "Excellent"
+// // }
+// //  else if (percentage <= 80 &&  percentage >= 70) {
+// //     grade = "A"
+// //     remarks = "Good"
+// // }
+
+// // else  if (percentage <= 70 && percentage >= 60){
+// //     grade = "B"
+// //     remarks = "You need to improve"
+// // }
+// // else  if (percentage <= 50)(
+// //     grade = "fail"
+   
+// // )
+// // document.write("<h2>Marksheet</h2>")
+// // document.write("Total marks is, " + total_marks + "<br>" + "Obtain marks is  ," + obtain_marks + "<br>" + "Percentage ." + percentage)
+// // document.write("<br> Grade: "+ grade);
+// // document.write("<br> Remarks: "+ remarks)
+//       var hidden_no = 8
+//        user = +prompt("find out secret number ( ranging from 1 to 10)")
+//       if (user == 8 ) {
+//           alert("Bingo! correct answer");
+//       }
+//       else if (user === hidden_no+1){
+//           alert("Close enough to the correct answer");
+//       }
+//       else (user != hidden_no)(
+//           alert("try again")
+//       )
+
+// var user_input =+prompt("enter no");
+// if (user_input%3  === 0 ) {
+//     alert("your number is divisible by 3")
+// }
+//  else(user_input%3  != 0 ) (
+//     alert("your number is not divisible by 3")
+// )
+//  temprature
+// var input_temp = +prompt("Enter Temprature")
+  
+//     if (input_temp > 40) {
+//         alert("It is too hot outside");
+//     }
+// else if(input_temp >30)
+// {
+//     alert("The Weather today is Normal.");
+
+// }
+// else if(input_temp >20){
+//     alert ("Today’s Weather is cool.”");
+// }
+// else( input_temp >10)(
+//     alert("OMG! Today’s weather is so Cool.")
+// )
+// var first_no =+prompt("Enter no")
+// var sec_n0 = +prompt("Enter no")
+// var operator;prompt ("Enter operator")
+// if (operator === "+"){
+//     first_no+sec_n0
+// }
+
+//  else if (operator == "-"){
+//     first_no+sec_n0
+// }
+//  else if (operator ==" -"){
+//     first_no-sec_n0
+// }
+// else if (operator == "*"){
+//     first_no*sec_n0 
+// }
+// else(operator =="/")(
+//     first_no/sec_n0
+// )
+
+// document.write ("<h1> Calculator </h1>")
+// document.write( "Addition  " + (first_no +sec_n0) + "<br>")
+// document.write("subraction " +(first_no-sec_n0) + "<br>" )
+// document.write("multiply  " +  first_no*sec_n0 + "<br>")
+// document.write("divide  " +   first_no/sec_n0 + "<br>")
+
+//==============chapter 12 to 13
+//TASK 1
+// var num = +prompt("Enter Number");
+// if (num<= 60 && 90){
+//     alert("This is capital letter");
+// }
+//  else if (num<=97 &&  num>=122 ){
+//     alert("This is Small letter");
+// }
+// else if (num<=0 &&  num>=9 ){
+//     alert("This is number");
+// }
+
+// TASK 2
+// var integer =+prompt("enter integer" ) 
+// var integer2 =+prompt("enter integer" ) 
+// if(integer > integer2){
+//     alert ( integer +" is greate than " + integer2);
+// }
+// else if(integer < integer2){
+//     alert ( integer +" is smaller than " + integer2);
+// }
+// else if(integer === integer2){
+//     alert ( integer +" is equal to " + integer2)
+// }
+
+// // Task3
+// var num = +prompt("Input number");
+// if( num >0){
+//     alert ("Number is positive");
+// }
+// else  if (num < 0){
+//     alert ("Number is negative");
+// }
+// else  if (num === 0){
+//     alert ("Number is zero");
+// }
+
+
+// Task4
+// var string = prompt("Enter vowel to check")
+
+// if (string.length === 1) {
+//     if(string === "a" || string ==="e" || string === "i" || string === "o" || string ==="u"){
+//      alert ("true it is vowel")
+// }
+// else{
+//     alert("false It not a vowel")
+// }
+
+
+// }
+
+// task5
+// var password = prompt("enter your passward" ,"")
+// confirm_pass = prompt("comfirm Passward")
+// if (password === confirm_pass) {
+//     alert ( "your passward is correct");
+    
+// }
+// else{
+//     alert ("incorrect passeord")
+// }
+
+// task 6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";}
+// else{
+// greeting = "Good evening";
+// }
+// alert ( greeting)
+
+
+// chapter 14
+// task1
+// var student1 = [];
+// var student2 =["",""];
+// var arr_str =["ssc","fsc","hsc"]
+// var ARR_num = [425,850,550]
+// var arr_boolean =[true,false]
+// var arr_mix = ["ssc",425,true]
+// var education = ["ssc","fsc","hsc","BSC","BS","BCOM","MS","M phil","Phd"]
+// document.write("Qualification" +"<br>" + education + "<br>")
+// task 2
+// var students = ['Micheal','John',"Tony"]
+// var marks =[320,230,480]
+// document.write("<h1>Add data in  form of the list</h1>")
+// document.write ("source of " + students[0] + " is " + marks[0] +" Percentage " + (marks[0]/500)*100 + "% " + "<br>")
+// document.write ("source of " + students[1] + " is " + marks[1] +" Percentage " + (marks[1]/500)*100 + "% " + "<br>")
+// document.write ("source of " + students[2] + " is " + marks[2] +" Percentage " + (marks[2]/500)*100 + "% " + "<br>")
+// // task 3
+// var colours = ["red", "Yellow", "green", "blue", "black","white"]
+// var fav_col = prompt("Select Your favourit color to add in begining of list")
+// colours.unshift (fav_col)
+// document.write("<h1>Add begining of the list</h1>")
+// document.write (colours + "<br>")
+// // task 4
+// var colours = ["red", "Yellow", "green", "blue", "black","white"]
+// colours.push ("pink","purple")
+// document.write("<h1>Add in end of the list</h1>")
+// document.write (colours + "<br>")
+// // task 5
+// var colours = ["red", "Yellow", "green", "blue", "black","white"]
+// colours.pop ()
+// document.write("<h1>Remove from end of the list</h1>")
+// document.write (colours + "<br>")
+// // task 6
+// var colours = ["red", "Yellow", "green", "blue", "black","white"]
+// colours.shift ()
+// document.write("<h1>Remove from start of the list</h1>")
+// document.write (colours + "<br>")
+// // task 5
+// var colours = ["red", "Yellow", "green", "blue", "black","white"]
+// var choos_col = prompt ("choose any color to add anywhere in array",[ 0, 0 ,"red"])
+// colours.splice (choos_col)
+// document.write("<h1>Add anywhere in the list</h1>")
+// document.write (colours)
+//  task 7
+// var scors = [320,230,480,120];
+// document.write("Scores of students : " + scors + "<br>")
+// scors.sort ()
+// document.write("Ordered Scores of students : " + scors)
+//   task 8
+// var cities = ['karachi',"Lahore","Islamabad","Quetta", "Peshawar"]
+// document.write ("<h4>Cities List</h4>" + cities)
+// cities.splice (0,2,)
+// document.write("<h4>Selected cities list</h4>" + cities)
+// task 9
+// var arr = ["This "," is ","my ","cat " ];
+// var string = arr.join("");
+// document.write(arr + "<br>")
+// document.write(string)
+
