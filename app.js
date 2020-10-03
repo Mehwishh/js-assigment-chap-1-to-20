@@ -556,9 +556,9 @@
 // // task 5
 // var colours = ["red", "Yellow", "green", "blue", "black","white"]
 // var choos_col = prompt ("choose any color to add anywhere in array",[ 0, 0 ,"red"])
-// colours.splice (choos_col)
-// document.write("<h1>Add anywhere in the list</h1>")
-// document.write (colours)
+// colours.splice (choos_col);
+// document.write("<h1>Add anywhere in the list</h1>");
+// document.write (colours);
 //  task 7
 // var scors = [320,230,480,120];
 // document.write("Scores of students : " + scors + "<br>")
@@ -574,4 +574,27 @@
 // var string = arr.join("");
 // document.write(arr + "<br>")
 // document.write(string)
+//  CHAPTER 17 -20
+// Task2
+// for (var i =0; i <=10 ; i++ ){
+//     document.write(  i + "<br>")
 
+// }
+
+
+
+
+// for ( var i = 1 ; i <=15  ; i++){
+// document.write ("  2 * "  + i + "=" +  i*2 +"<br>")}
+
+
+// Task 5
+// var fruits = ["apple","banana","graphs","pineapple","orange","strawberry"]
+// for( var i = 0 ; i < fruits.length; i++){
+//     document.write ( "Element at index " + i +" is "+fruits[i] + "<br>")
+// }
+// var a = +prompt(" ");
+// var b = +prompt("");
+// for (var  i=1; i>0; i++ ){
+//     b = a*i
+// document.write("" +a+ "*" + i + "=" + b + "<br>")}
